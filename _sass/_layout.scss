@@ -177,14 +177,16 @@
     background: white;
     &.main {
         background: url("/images/So_many_ducks.jpg");
-        background-size: 100%;
+        background-size: cover;
         min-height: -webkit-calc(100% - 200px);
         min-height:         calc(100% - 200px);
     }
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 35px;
+    background: rgba(255,255,255,0.7);
+    padding: 5px;
 }
 
 .post-list {
